@@ -1,4 +1,4 @@
-![CMS Logo](http://stuartd.co.uk/screenshots/230241201646.png)
+![CMS Logo](http://stuartd.co.uk/screenshots/230244201616.png)
 
 # Convoy Management System (CMS)
 
