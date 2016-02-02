@@ -193,15 +193,17 @@ p.alert-red{
 #textarea {
     -moz-appearance: textfield-multiline;
     -webkit-appearance: textarea;
+	display: block;
+	background-color: #ECECEC;
     border: 1px solid gray;
     font: medium -moz-fixed;
     font: -webkit-small-control;
     text-align: justify;
-    padding: 1em;
+    padding: 5% !important;
     height: auto;
     overflow: visible;
     padding: 2px;
     resize: both;
-    width: 100%;
+    width: 90%;
 }
 
