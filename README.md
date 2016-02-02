@@ -18,8 +18,7 @@ Once Installed..
 
 Created by StuartD (www.stuartd.co.uk)
 Testers:
-- RyanB
-- Crumbs
+- RyanB, Crumbs
 
 ## License
 
