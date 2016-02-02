@@ -1,0 +1,78 @@
+[{
+    "city":"Aalborg"
+},
+{
+    "city":"Bergen"
+},
+{
+    "city":"Esbjerg"
+},
+{
+    "city":"Frederikshavn"
+},
+{
+    "city":"Gedser"
+},
+{
+    "city":"Goteborg"
+},
+{
+    "city":"Helsingborg"
+},
+{
+    "city":"Hirtshals"
+},
+{
+    "city":"Jonkoping"
+},
+{
+    "city":"Kalmar"
+},
+{
+    "city":"Karlskrona"
+},
+{
+    "city":"Kristiansand"
+},
+{
+    "city":"Kobenhavn"
+},
+{
+    "city":"Linkoping"
+},
+{
+    "city":"Malmo"
+},
+{
+    "city":"Nynashamn"
+},
+{
+    "city":"Odense"
+},
+{
+    "city":"Orebro"
+},
+{
+    "city":"Oslo"
+},
+{
+    "city":"Stavanger"
+},
+{
+    "city":"Stockholm"
+},
+{
+    "city":"Sodertalje"
+},
+{
+    "city":"Trelleborg"
+},
+{
+    "city":"Uppsala"
+},
+{
+    "city":"Vasteras"
+},
+{
+    "city":"Vaxjo"
+}]

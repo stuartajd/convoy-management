@@ -1,0 +1,267 @@
+[{
+    "city":"Aberdeen"
+},
+{
+    "city":"Amsterdam"
+},
+{
+    "city":"Banska Bystrica"
+},
+{
+    "city":"Berlin"
+},
+{
+    "city":"Bern"
+},
+{
+    "city":"Bialystok"
+},
+{
+    "city":"Birmingham"
+},
+{
+    "city":"Bratislava"
+},
+{
+    "city":"Bremen"
+},
+{
+    "city":"Brno"
+},
+{
+    "city":"Brussels"
+},
+{
+    "city":"Budapest"
+},
+{
+    "city":"Calais"
+},
+{
+    "city":"Cambridge"
+},
+{
+    "city":"Cardiff"
+},
+{
+    "city":"Carlisle"
+},
+{
+    "city":"Debrecen"
+},
+{
+    "city":"Dijon"
+},
+{
+    "city":"Dortmund"
+},
+{
+    "city":"Dover"
+},
+{
+    "city":"Dresden"
+},
+{
+    "city":"Duisbourg"
+},
+{
+    "city":"Dusseldorf"
+},
+{
+    "city":"Edinburgh"
+},
+{
+    "city":"Erfurt"
+},
+{
+    "city":"Felixstowe"
+},
+{
+    "city":"Frankfurt-am-main"
+},
+{
+    "city":"Gdansk"
+},
+{
+    "city":"Geneve"
+},
+{
+    "city":"Glasgow"
+},
+{
+    "city":"Graz"
+},
+{
+    "city":"Grimsby"
+},
+{
+    "city":"Groningen"
+},
+{
+    "city":"Hamburg"
+},
+{
+    "city":"Hannover"
+},
+{
+    "city":"Innsbruck"
+},
+{
+    "city":"Kassel"
+},
+{
+    "city":"Katowice"
+},
+{
+    "city":"Kiel"
+},
+{
+    "city":"Klagenfurt Am Worthersee"
+},
+{
+    "city":"Koln"
+},
+{
+    "city":"Kosice"
+},
+{
+    "city":"Krakow"
+},
+{
+    "city":"Leipzig"
+},
+{
+    "city":"Liege"
+},
+{
+    "city":"Lille"
+},
+{
+    "city":"Linz"
+},
+{
+    "city":"Liverpool"
+},
+{
+    "city":"Lodz"
+},
+{
+    "city":"London"
+},
+{
+    "city":"Lublin"
+},
+{
+    "city":"Luxembourg"
+},
+{
+    "city":"Lyon"
+},
+{
+    "city":"Magdeburg"
+},
+{
+    "city":"Manchester"
+},
+{
+    "city":"Mannheim"
+},
+{
+    "city":"Metz"
+},
+{
+    "city":"Milano"
+},
+{
+    "city":"Munchen"
+},
+{
+    "city":"Newcastle-upon-tyne"
+},
+{
+    "city":"Nurnberg"
+},
+{
+    "city":"Olsztyn"
+},
+{
+    "city":"Osnabruck"
+},
+{
+    "city":"Ostrava"
+},
+{
+    "city":"Other"
+},
+{
+    "city":"Paris"
+},
+{
+    "city":"Pecs"
+},
+{
+    "city":"Plymouth"
+},
+{
+    "city":"Poznan"
+},
+{
+    "city":"Praha"
+},
+{
+    "city":"Reims"
+},
+{
+    "city":"Rostock"
+},
+{
+    "city":"Rotterdam"
+},
+{
+    "city":"Salzburg"
+},
+{
+    "city":"Sheffield"
+},
+{
+    "city":"Southampton"
+},
+{
+    "city":"Strasbourg"
+},
+{
+    "city":"Stuttgart"
+},
+{
+    "city":"Swansea"
+},
+{
+    "city":"Szczecin"
+},
+{
+    "city":"Szeged"
+},
+{
+    "city":"Testing"
+},
+{
+    "city":"Torino"
+},
+{
+    "city":"Venezia"
+},
+{
+    "city":"Verona"
+},
+{
+    "city":"Warsaw"
+},
+{
+    "city":"Wien"
+},
+{
+    "city":"Wroclaw"
+},
+{
+    "city":"Zurich"
+}]
