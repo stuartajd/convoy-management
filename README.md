@@ -17,8 +17,10 @@ Once Installed..
 ## Credits
 
 Created by StuartD (www.stuartd.co.uk)
+
 Testers:
-- RyanB, Crumbs
+- RyanB
+- Crumbs
 
 ## License
 
