@@ -11,7 +11,7 @@
 		$conDir = '../assets/';
         if(!file_exists($conDir . $conName)) 
         {
-            $handle = fopen("". $conDir . $conName . "", 'w+') or die('Cannot open file:  '. $conDir . $conName);
+            $handle = fopen("". $conDir . $conName . "", 'w+') or die('Cannot write to the directory (Please give write access to assets directory):  '. $conDir . $conName);
             $inputSQLinfo = '
             <?php 
                 $username =  "'. $db_user .'"; 
