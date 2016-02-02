@@ -2,7 +2,7 @@
     if(file_exists("install")){
         die('<h1>Installer</h1>The installer for CMS (Convoy Management System) is still uploaded. Please either run the installer on <a href="install">/install</a> or delete this directory. <br /><br />If you were redirected here from the installer, it was successfully installed.');  
     }
-	if(!file_exists("connection.php")){
+	if(!file_exists("assets/connection.php")){
 		die('<h1>Installation Error</h1>The database connection for CMS (Convoy Management System) could not complete as the database information is missing. Please upload and run the installer on <a href="install">/install</a>.');
 	}
     $config_ini = parse_ini_file("settings.ini", true);
