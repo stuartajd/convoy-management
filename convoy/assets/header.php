@@ -2,11 +2,7 @@
     if(file_exists("install")){
         die('<h1>Installer</h1>The installer for CMS (Convoy Management System) is still uploaded. Please either run the installer on <a href="install">/install</a> or delete this directory. <br /><br />If you were redirected here from the installer, it was successfully installed.');  
     }
-
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-    
+   
     $config_ini = parse_ini_file("settings.ini", true);
     $vtcName = $config_ini['VTC']['displayName'];
     $vtcLink = $config_ini['VTC']['vtcLink'];

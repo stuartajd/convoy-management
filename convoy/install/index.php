@@ -1,7 +1,5 @@
+<link rel="stylesheet" href="../assets/style.css">
 <title>Convoy Management System - Installer</title>
-<h1>Convoy Management System</h1>
-<p>Please enter your database information to begin installation</p>
-
 <?php
     if(isset($_POST) && !empty($_POST)){
         $db_host = $_POST['host'];
@@ -23,15 +21,26 @@
                 $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"); 
                 try 
                 { 
-                    $db = new PDO("mysql:host={$host};dbname={$dbname};charset=utf8", $username, $password, $options); 
-
+                    $db = new PDO("mysql:host={$host};charset=utf8", $username, $password, $options); 
                 }
                 catch(PDOException $ex) 
                 { 
                     echo($ex->getMessage());
                     exit();
                 }
-
+				
+				$query = "CREATE DATABASE IF NOT EXISTS ". $dbname .";";
+				try 
+				{   $stmt = $db->prepare($query); 
+					$result = $stmt->execute(); 
+				} 
+				catch(PDOException $ex) 
+				{ 
+					die("Failed to run query: " . $ex->getMessage()); 
+				} 
+				
+				$db->exec("USE {$dbname}");
+				
                 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 
 
@@ -73,10 +82,9 @@
                 fclose($handle);
                 
                 require("../assets/connection.php");
-                
+                			
+				
                 $query = "
-                    CREATE DATABASE IF NOT EXISTS ". $db_data .";
-                    
                     CREATE TABLE IF NOT EXISTS `convoys` (
                       `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
                       `location` varchar(255) NOT NULL,
@@ -107,11 +115,37 @@
 	   }        
     }
 ?>
-
-<form action="index.php" method="post">
-    Host: <input type="text" name="host" placeholder="Database Host"></input><br />
-    Database: <input type="text" name="data" placeholder="Database"></input><br />
-    User: <input type="text" name="user" placeholder="Database User"></input><br />
-    Password: <input type="password" name="pass" placeholder="User Password"></input><br />
-    <button type="submit">Install</button>
-</form>
+<section class="container" style="padding-top: 5em;">
+    <h1>Convoy Management System Installer</h1>
+	<form action="index.php" method="post">
+		<table class="createForm">
+			<tr>
+				<td>Host</td>
+				<td>
+					<input type="text" name="host" placeholder="Database Host"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>User</td>
+				<td>
+					<input type="text" name="user" placeholder="Database User"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>
+					<input type="password" name="pass" placeholder="Database Password"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Database</td>
+				<td>
+					<input type="text" name="data" placeholder="Database Name"></input>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;"><button type="submit" class="submitButton">Submit</button></td>
+			</tr>
+		</table>
+	</form>
+</section>
