@@ -26,7 +26,7 @@
 		sort($locationsArray);
     }
 
-    $servers = json_decode(file_get_contents("https://api.ets2mp.com/servers/"), true);
+    $servers = json_decode(file_get_contents("https://api.ets2mp.com/v2/servers/"), true);
 
     if(!checkUserAccess($ipRestricted)){
         echo '<section class="container"><h1>Convoy Creation</h1><p class="alert-red">You do not have permission to create a convoy.</p></section>';
