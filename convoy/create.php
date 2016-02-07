@@ -53,7 +53,7 @@
                     <select name="server">
                         <?php
                             foreach($servers['response'] as $serv){
-                                echo '<option>'. $serv['shortname'] .'</option>';
+                                echo '<option>'. $serv['shortname'] .' - '. $serv['game'] .'</option>';
                             } 
                         ?>
                     </select>
